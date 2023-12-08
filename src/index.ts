@@ -1,12 +1,3 @@
-import { 
-    ArcxAnalyticsProvider,
-    useArcxAnalytics
-  } from "@arcxmoney/analytics";
+export { TrustBadge } from "./components/trust-badge";
   
-  import { TrustBadge } from "./components/trust-badge";
-  
-  export {
-    ArcxAnalyticsProvider,
-    useArcxAnalytics,  
-    TrustBadge
-  };
+
