@@ -12,8 +12,8 @@ After the SDK is installed, you'll want to import the CSS files at the top level
 Here is an example component with the full configuration.
 
 ```js
-import 'trust-badge-sdk/dist/index.css';
-import { TrustBadge } from 'sandbox-equinox';
+import '@arcxmoney/trust-badge-sdk/dist/index.css';
+import { TrustBadge } from '@arcxmoney/trust-badge-sdk';
 
 function App() {
   // handle the loading state however you wish.
