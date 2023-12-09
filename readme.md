@@ -12,7 +12,7 @@ After the SDK is installed, you'll want to import the CSS files at the top level
 Here is an example component with the full configuration.
 
 ```js
-import 'sandbox-equinox/dist/index.css';
+import 'trust-badge-sdk/dist/index.css';
 import { TrustBadge } from 'sandbox-equinox';
 
 function App() {
