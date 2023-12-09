@@ -21,7 +21,7 @@ export function useProjectData(projectId: number, onLoaded: (loaded: boolean) =>
 
       try {
         const project = await fetchProject(projectId);
-        setStarRating(project.averageRating);
+        setStarRating(Number(project.averageRating.toFixed(2)));
         setReviewCount(project.reviewCount); 
         setDidLoad(true);
       } catch (error) {

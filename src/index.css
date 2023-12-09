@@ -1,0 +1,29 @@
+/* trust-badge.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@font-face {
+    font-family: Degular;
+    src: url('./fonts/Degular_Text-Regular.woff2'); 
+    }
+    
+    @font-face {
+    font-family: DegularMedium;
+    src: url('./fonts/Degular_Text-Medium.woff2');
+    }
+    
+    @font-face {
+    font-family: DegularBlack;
+    src: url('./fonts/Degular_Text-Black.woff2');
+}
+
+@layer components {
+    .degular-font {
+        font-family: Degular;
+    }
+      
+    .badge {
+        @apply degular-font;
+    }
+}

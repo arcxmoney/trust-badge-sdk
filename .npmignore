@@ -1,0 +1,6 @@
+!dist
+src
+
+postcss.config.cjs
+tailwind.config.js
+yarn.lock

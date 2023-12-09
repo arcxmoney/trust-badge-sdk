@@ -31,7 +31,7 @@ function Star({ rating, threshold, ...props }: { rating: number; threshold: numb
         <path
           fill={fill}
           d="M13.3333 1L16.86 8.1459L24.746 9.2918L19.0397 14.8541L20.3868 22.7082L13.3333 19L6.27991 22.7082L7.62699 14.8541L1.92065 9.2918L9.80662 8.1459L13.3333 1Z"
-          stroke="currentColor"
+          stroke="#1E1C1D"
           strokeWidth="2"
           strokeLinejoin="round"
         />
